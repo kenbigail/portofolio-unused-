@@ -445,20 +445,21 @@ li .txt-home {
     margin-top: 25px;
 }
 
+/* added Not Ready animation */
+
 .hover1{
     visibility: hidden;
     opacity: 0%;
+    scale: 0%;
+    width: 20%;
+    height: 20%;
     transition: 0.3s;
-    font-size: 0.5em;
-    width: 5%;
-    height: 5%;
-    border-radius: 100%;
-    border: 2px solid #ffffff;
+    color: #ffffff;
 }
 
-.hover1.active {
+.img-project:hover .hover1 {
     visibility: visible;
-    opacity: 100%;
+    scale: 100%;
     transition: 0.3s;
     font-size: 1em;
     display: flex;
@@ -471,11 +472,5 @@ li .txt-home {
     opacity: 100%;
     text-align: center;
     border-radius: 100%;
-    border: 2px solid #ffffff;
-}
-
-.hover1.remove {
-    visibility: hidden;
-    opacity: 0%;
-    transition: 0.3s;
+    border: 3px solid #ffffff;
 }

@@ -56,12 +56,12 @@ slider.addEventListener("click", () => {
 });
 
 imgpr1.addEventListener("mouseenter", () => { 
-    hover1.classList.toggle("active")
+    
 })
 
-imgpr1.addEventListener("mouseleave", () => { 
-    hover1.classList.toggle("remove")
-})
+// imgpr1.addEventListener("mouseleave", () => { 
+//     hover1.classList.toggle("remove")
+// })
 
 achievements.addEventListener("click", () => {
     alert('Section is on Progress, Sorry for the Inconvenience')
