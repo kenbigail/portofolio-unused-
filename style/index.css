@@ -260,7 +260,7 @@ li .txt-home {
 /* Make the Hamburger turn to X when Clicked */
 
 .hamburger-menu.active .bar:nth-child(1) {
-    transform: translateY(6px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
 }
 
 .hamburger-menu.active .bar:nth-child(2) {
@@ -268,7 +268,7 @@ li .txt-home {
 }
 
 .hamburger-menu.active .bar:nth-child(3) {
-    transform: translateY(-6px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
 }
 
 /* show the box nav when active */
