@@ -487,6 +487,7 @@ li .txt-home {
 /* make a footer */
 
 .footer {
+    margin-top: 20vh;
     width: 100vw;
     height: 50vh;
     display: flex;
