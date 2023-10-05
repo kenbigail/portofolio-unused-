@@ -449,12 +449,20 @@ li .txt-home {
 
 .hover1{
     visibility: hidden;
-    opacity: 0%;
     scale: 0%;
-    width: 20%;
-    height: 20%;
-    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15%;
+    height: 15%;
+    background: #FF8329;
     color: #ffffff;
+    opacity: 0%;
+    border-radius: 100%;
+    border: 3px solid #ffffff;
+    transition: 0.3s;
+
 }
 
 .img-project:hover .hover1 {
