@@ -12,6 +12,7 @@ const supimg = document.getElementById("imgsup")
 const slider = document.getElementById("slider")
 const imgpr1 = document.getElementById("project1")
 const hover1 = document.getElementById("hoverpr1")
+const link = document.getElementById("link")
 
 // This is Functions Scope
 
@@ -73,6 +74,9 @@ projects.addEventListener("click", () => {
 })
 
 about.addEventListener("click", () => {
-    alert('Section is on Progress, Sorry for the Inconvenience')
-    window.location.href = '#'
+    window.location.href = 'about.html'
+})
+
+link.addEventListener("click", () => {
+    window.location.href = 'about.html'
 })
