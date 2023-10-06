@@ -16,6 +16,7 @@ body {
 /* make the Navigation Bar */
 .navbar-wrapper {
     position: fixed;
+    z-index: 100;
 }
 
 .navbar {
@@ -526,6 +527,7 @@ li .txt-home {
 
 .copyright2 {
     font-size: 1em;
+    margin-top: 10px;
     font-weight: 200;
 }
 
@@ -541,6 +543,16 @@ li .txt-home {
 .image-gif {
     width: 80%;
     height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 22px;
     background-image: url(https://abhishekjha.me/2020/photos/cont2.gif);
+}
+
+.image-gif h1 {
+    font-size: 5em;
+    font-weight: 800;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #ffffff;
 }
